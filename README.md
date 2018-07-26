@@ -17,4 +17,9 @@ These are some of the results that can be obtained with the algorithm for differ
 ```
 a = -8; b =5 ; n=5  tol=1e-8
 ```
+\begin{equation}
+f(x)=(x-3)(x+6)
+\end{equation}
 
+
+<img src="https://latex.codecogs.com/svg.latex?\Large&space;" />
