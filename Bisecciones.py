@@ -3,7 +3,6 @@ import matplotlib.pyplot as plt
 
 def function(c):
     m=68.1; g=9.8 ; v=40 ; t=10
-    #return (c-3)*(c+6)
     return (g*m/c)*(1-np.exp(-(c/m)*t))-v
 
 def limits(a,b,n):
@@ -24,7 +23,7 @@ def main():
     
     a= 1           #Limite inferior del intervalo de búsqueda Inicial.
     b= 20           #Limite superior del interval de búsqueda inicial.
-    n= 5            #Número de divisiones.
+    n= 2            #Número de divisiones.
     tol = 1e-8      #Toleracia de la Respuesta
     solucion=0      #Inicialización de la Solucion.
     valor=0         #Valor final de la función en la Solución.
