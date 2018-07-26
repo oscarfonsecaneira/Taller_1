@@ -10,12 +10,17 @@ n := Number of Divisions.
 tol := Desired Tolerance of the Answer. 
 ```
 
-These are some of the results that can be obtained with the algorithm for differentc combiantions of functions and parameters:
+These are some of the results that can be obtained with the algorithm for different combiantions of functions and parameters:
 
 <img src="https://latex.codecogs.com/svg.latex?\Large&space;f(x)=(x-3)(x+6)"/>
 
 ```
 a = -8; b =5 ; n=5  tol=1e-8
+```
+Results: 
+```
+x=-6.000000000983039
+f(x)=8.847354849706364e-09 
 ```
 
 <p align="center">
@@ -27,7 +32,11 @@ a = -8; b =5 ; n=5  tol=1e-8
 ```
 a = -8; b =5 ; n=5  tol=1e-8
 ```
-
+Results: 
+```
+x=14.780203832115193
+f(x)= -8.853575650391576e-10
+```
 <p align="center">
   <img src="f2.png">
 </p>
