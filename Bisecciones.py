@@ -51,7 +51,7 @@ def main():
                 sign=1
                 while(sign==1):
                     sign=np.sign(resultados[i]*resultados[i+1])
-                    print(sign)
+                    #print(sign)
                     i+=1
                 
                 a=candidatos[i-1]
