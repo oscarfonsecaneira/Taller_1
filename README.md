@@ -14,13 +14,22 @@ These are some of the results that can be obtained with the algorithm for differ
 
 <img src="https://latex.codecogs.com/svg.latex?\Large&space;" />
 
+```
+a = -8; b =5 ; n=5  tol=1e-8
+```
+
 <p align="center">
   <img src="f1.png">
 </p>
+
+<img src="https://latex.codecogs.com/svg.latex?\Large&space;" />
 
 ```
 a = -8; b =5 ; n=5  tol=1e-8
 ```
 
+<p align="center">
+  <img src="f2.png">
+</p>
 
 
