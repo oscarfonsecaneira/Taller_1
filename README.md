@@ -15,7 +15,7 @@ These are some of the results that can be obtained with the algorithm for differ
 <img src="https://latex.codecogs.com/svg.latex?\Large&space;" />
 
 <p align="center">
-  <img src="f1.png" width="350" title="hover text">
+  <img src="f1.png">
 </p>
 
 ```
