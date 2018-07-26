@@ -3,27 +3,29 @@ import matplotlib.pyplot as plt
 
 def function(c):
     m=68.1; g=9.8 ; v=40 ; t=10
-    return (g*m/c)*(1-np.exp(-(c/m)*t))-v
+    return (c-3)*(c+6)
+    #return (g*m/c)*(1-np.exp(-(c/m)*t))-v
 
 def limits(a,b,n):
-    limits=[]
-    sum=a;
-    while(sum<=b):
-        limits.append(sum)
+    limits=np.zeros(n+1)
+    limits[n]=b
+    sum=a
+    for i in range(n):
+        limits[i]=sum
         sum=sum+(b-a)/n
-    return np.array(limits)
+    return limits
 
 
 def main():
     
-    c=np.arange(0,20,0.1)
+    c=np.arange(-10,10,0.1)
     f=function(c)
     plt.figure()
     plt.plot(c,f)
     
-    a= 1           #Limite inferior del intervalo de búsqueda Inicial.
-    b= 20           #Limite superior del interval de búsqueda inicial.
-    n= 2            #Número de divisiones.
+    a= -10          #Limite inferior del intervalo de búsqueda Inicial.
+    b= -4.5         #Limite superior del interval de búsqueda inicial.
+    n= 3            #Número de divisiones.
     tol = 1e-8      #Toleracia de la Respuesta
     solucion=0      #Inicialización de la Solucion.
     valor=0         #Valor final de la función en la Solución.
@@ -31,10 +33,12 @@ def main():
     candidatos=np.zeros(n+1)
     
     if function(a)*function(b)<=0:
-    
+        
         while (True):
+            print("------Nueva Iteración------")
             
             candidatos=limits(a,b,n)
+            print(candidatos)
             resultados=function(candidatos)
 
             if (abs(resultados)<=tol).any():
@@ -47,6 +51,7 @@ def main():
                 sign=1
                 while(sign==1):
                     sign=np.sign(resultados[i]*resultados[i+1])
+                    print(sign)
                     i+=1
                 
                 a=candidatos[i-1]
@@ -63,3 +68,4 @@ def main():
 
 if __name__=='__main__':
     main()
+
