@@ -11,9 +11,10 @@ tol := Desired Tolerance of the Answer.
 ```
 
 These are some of the results that can be obtained with the algorithm for differentc combiantions of functions and parameters: 
-
+![Screenshot](f1.png)
 <img src="https://latex.codecogs.com/svg.latex?\Large&space;f(x)=(x-3)(x+6)" />
+
 ```
 a = -8; b =5 ; n=5  tol=1e-8
 ```
-![Screenshot](f1.png)
+
