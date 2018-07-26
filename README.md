@@ -27,7 +27,7 @@ f(x) =  8.847354849706364e-09
   <img src="f1.png">
 </p>
 
-<img src="https://latex.codecogs.com/svg.latex?\Large&space;f(c)=\frac{gm}{c}(1-e^(-(\frac{c}{m})t))-v(t)"/>
+<img src="https://latex.codecogs.com/svg.latex?\Large&space;f(c)=\frac{gm}{c}(1-e^{-(\frac{c}{m})t)}-v(t)"/>
 
 ```
 a = 1; b =20 ; n=3  tol=1e-8
