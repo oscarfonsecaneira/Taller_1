@@ -17,4 +17,4 @@ These are some of the results that can be obtained with the algorithm for differ
 a = -8; b =5 ; n=5  tol=1e-8
 
 ```
-![alt text](https://raw.githubusercontent.com/millanp95/N_Seccions/master/f1.png)
+![alt text](https://raw.githubusercontent.com/millanp95/N-Seccions/master/f1.png)
