@@ -62,7 +62,7 @@ def main():
     plt.plot([solucion], [valor], marker='X', markersize=4, color="red")
     plt.grid()
     plt.title("Root Finding")
-    plt.savefig("f2.png")
+    plt.savefig("figure.png")
     plt.show()
 
 
