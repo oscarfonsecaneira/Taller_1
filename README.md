@@ -25,7 +25,7 @@ El código determina la medida del lado del cuadrado que se debe recortar en cad
 
 Se propone resolver la integral con el método del punto fijo: 
 
-<img src="https://latex.codecogs.com/svg.latex?\Large&space; \integral du=2"/>
+<img src="https://latex.codecogs.com/svg.latex?\Large&space; \int_{0}^{x}(5-e^{u})du=2"/>
 
 
 ```
