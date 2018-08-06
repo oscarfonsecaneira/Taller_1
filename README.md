@@ -25,7 +25,7 @@ El código determina la medida del lado del cuadrado que se debe recortar en cad
 
 Se propone resolver la integral con el método del punto fijo: 
 
-<img src="https://latex.codecogs.com/svg.latex?\Large&space; "/>
+<img src="https://latex.codecogs.com/svg.latex?\Large&space; e^{u} "/>
 
 
 ```
@@ -37,7 +37,7 @@ tol := Desired Tolerance of the Answer.
 
 These are some of the results that can be obtained with the algorithm for different combiantions of functions and parameters:
 
-<img src="https://latex.codecogs.com/svg.latex?\Large&space; e^{u} "/>
+
 
 ```
 a = -8; b =5 ; n=5  tol=1e-8
