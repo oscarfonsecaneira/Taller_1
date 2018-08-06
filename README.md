@@ -37,7 +37,7 @@ tol := Desired Tolerance of the Answer.
 
 These are some of the results that can be obtained with the algorithm for different combiantions of functions and parameters:
 
-<img src="https://latex.codecogs.com/svg.latex?\Large&space;\int_{0}^{x} \left  ( 5 - e^{u} \right )du "/>
+<img src="https://latex.codecogs.com/svg.latex?\Large&space; e^{u} "/>
 
 ```
 a = -8; b =5 ; n=5  tol=1e-8
@@ -48,7 +48,7 @@ Results:
 f(x) =  8.847354849706364e-09 
 ```
 
-<img src="https://latex.codecogs.com/svg.latex?\Large&space;f(c)=\frac{gm}{c}(1-e^{-(\frac{c}{m})t)})-v(t)"/>
+<img src="https://latex.codecogs.com/svg.latex?\Large&space; f(c)=\frac{gm}{c}(1-e^{-(\frac{c}{m})t)})-v(t)"/>
 
 ```
 m=68.1; g=9.8 ; v=40 ; t=10
