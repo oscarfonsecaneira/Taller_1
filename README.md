@@ -2,6 +2,7 @@
 
 ## Punto 1. 
 
+<img src="https://latex.codecogs.com/svg.latex?\Large&space; e^{u} "/>
 
 ## Punto 2. 
 
@@ -40,8 +41,7 @@ Gráficamente, podemos verificar la convergencia del método.
 
 Se utilizará el método de Newton para encontrar una intersección de las siguientes ecuaciones en coordenadas polares. 
 
-<img alt="tex: f(x) = \frac1{\sigma\sqrt{2\pi}} 
-    \int_{-\infty}^x e^{-\frac{(t-\mu)^2}{2\sigma^2}}dt">
+
 
 ## Punto 14. 
 
@@ -49,7 +49,7 @@ Se utilizará el método de Newton para encontrar una intersección de las sigui
 
 Se propone resolver la integral con el método del punto fijo: 
 
-<img src="https://latex.codecogs.com/svg.latex?\Large&space; e^{u} "/>
+
 
 
 ```
