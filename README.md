@@ -30,6 +30,11 @@ Para resolver el problema usamos una variación de los métodos de bisecciones y
 ## Punto 3 o 4 o 5.  
 
 ## Punto 6. 
+Eficiencia de un algoritmo esta denotada por T(n)
+ 
+ Al momento de recorrer el algoritmo con n = 73, se realizaron 7 operaciones aritméticas de división.
+ 
+ Ya con <a href="https://www.codecogs.com/eqnedit.php?latex=T(n)" target="_blank"><img src="https://latex.codecogs.com/gif.latex?T(n)" title="T(n)" /></a> encontrado que es igual a 7, se expresa a O( ) como <a href="https://www.codecogs.com/eqnedit.php?latex=O(2^{-n})" target="_blank"><img src="https://latex.codecogs.com/gif.latex?O(2^{-n})" title="O(2^{-n})" /></a>
  
 ## Punto 7.  
 Una partícula se mueve en el espacio con el siguiente vector posición: 
