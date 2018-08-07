@@ -193,6 +193,10 @@ Solucion en Grados:  -39.954015646338924
 
 Gráficamente, podemos verificar la validez de la solución. 
 
+<p align="center">
+  <img src="Polar plot.png">
+</p>
+
 ## Punto 14. 
 
 ## Punto 15. 
