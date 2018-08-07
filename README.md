@@ -42,7 +42,7 @@ El código determina la medida del lado del cuadrado que se debe recortar en cad
 Un esquema del problema es como el que se muestra en la figura a continuación: 
 
 <p align="center">
-  <img src="BOX.png" width="320" heigth="240">
+  <img src="Esquema_punto2.png" width="320" heigth="240">
 </p>
 
 El volumen de la caja se puede obtener mediante la siguiente expresión:
@@ -53,7 +53,31 @@ Luego, basta con resolver la siguiente ecuación:
 
 <a href="https://www.codecogs.com/eqnedit.php?latex=V(x)=x(0.24-x)(0.32-x)" target="_blank"><img src="https://latex.codecogs.com/gif.latex?x(0.24-x)(0.32-x)-0.001=0" title="x(0.24-x)(0.32-x)-0.001=0" /></a>
 
-Para resolver el problema usamos una variación de los métodos de bisecciones y Newton Rapson que permita aproximarse a la solución por la izquierda.
+Para resolver el problema, se debe tener en cuenta que el volumen solamente puede puede aproximarse por la izquierda al valor equivalente a un litro, para eso se le restará un valor de épsilon que permita aproximarse a la solución por la izquierda.
+
+**Resultados:** 
+
+```
+Intervalo: [0,0.05]
+
+ x  = 0.016962500000000012
+Vol = 0.0009999886616640628
+
+Intervalo: [0.05,0.1]
+ x  = 0.0809325
+Vol = 0.0009999921144448125
+
+Intervalo: [0.1,0.15]
+
+
+ x  = 0.18210500000000004
+Vol = 0.0009999975752305029
+
+```
+Graficamente: 
+
+**Preguntas Adicionales: 
+
 
 ## Punto 3 o 4 o 5.  
 
