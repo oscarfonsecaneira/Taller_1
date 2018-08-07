@@ -45,8 +45,18 @@ Se utilizará el método de Newton para encontrar una intersección de las sigui
 
 <a href="https://www.codecogs.com/eqnedit.php?latex=r=2-e^{t}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?r=2-e^{t}" title="r=2-e^{t}" /></a>
                                                                                               
+Se igualan las dos ecuaciones y se obtiene la siguiente expresión. 
 
 
+Para utilizar el método de Newton, derivamos la expresión: 
+
+Se selecciona una solución en el siguiente intervalo: 
+
+```
+a = Lower Limit 
+b := Upper Limit.  
+tol := Desired Tolerance of the Answer. 
+```
 
 ## Punto 14. 
 
@@ -54,38 +64,8 @@ Se utilizará el método de Newton para encontrar una intersección de las sigui
 
 Se propone resolver la integral con el método del punto fijo: 
 
+<a href="https://www.codecogs.com/eqnedit.php?latex=\int_{0}^{x}&space;\left&space;(&space;5&space;-&space;e^{u}&space;\right&space;)&space;du" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\int_{0}^{x}&space;\left&space;(&space;5&space;-&space;e^{u}&space;\right&space;)&space;du" title="\int_{0}^{x} \left ( 5 - e^{u} \right ) du" /></a>
 
-
-
-```
-a := Lower Limit 
-b := Upper Limit. 
-n := Number of Divisions. 
-tol := Desired Tolerance of the Answer. 
-```
-
-
-
-```
-a = -8; b =5 ; n=5  tol=1e-8
-```
-Results: 
-```
- x   = -6.000000000983039
-f(x) =  8.847354849706364e-09 
-```
-
-<img src="https://latex.codecogs.com/svg.latex?\Large&space; f(c)=\frac{gm}{c}(1-e^{-(\frac{c}{m})t)})-v(t)"/>
-
-```
-m=68.1; g=9.8 ; v=40 ; t=10
-a = 1; b =20 ; n=3  tol=1e-8
-```
-Results: 
-```
-x    = 14.78020382951945
-f(x) = 4.175156220753706e-09
-```
 
 
 
