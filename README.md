@@ -63,6 +63,13 @@ Resultados:
 
 Gráficamente, podemos verificar tanto la validez como la convergencia del método. 
 
+<p align="center">
+  <img src="Derivate.png" width="320" heigth="240">
+</p>
+
+<p align="center">
+  <img src="Distancia.png" width="320" heigth="240">
+</p>
 
 
 ## Punto 10.
