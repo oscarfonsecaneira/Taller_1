@@ -2,7 +2,6 @@
 
 ## Punto 1. 
 
-<a href="https://www.codecogs.com/eqnedit.php?latex=\mathcal{W}(A,f)&space;=&space;(T,\bar{f})" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\mathcal{W}(A,f)&space;=&space;(T,\bar{f})" title="\mathcal{W}(A,f) = (T,\bar{f})" /></a>
 
 ## Punto 2. 
 
@@ -24,7 +23,7 @@ El volumen de la caja se puede obtener mediante la siguiente expresión:
 
 Luego, basta con resolver la siguiente ecuación: 
 
-<a href="https://www.codecogs.com/eqnedit.php?latex=V(x)=x(0.24-x)(0.32-x)" target="_blank"><img src="https://latex.codecogs.com/gif.latex? x(0.24-x)(0.32-x)-0.001" title="x(0.24-x)(0.32-x)-0.001" /></a>
+<a href="https://www.codecogs.com/eqnedit.php?latex=V(x)=x(0.24-x)(0.32-x)" target="_blank"><img src="https://latex.codecogs.com/gif.latex?x(0.24-x)(0.32-x)-0.001" title="x(0.24-x)(0.32-x)-0.001" /></a>
 
 Para resolver el problema usamos una variación de los métodos de bisecciones y Newton Rapson que permita aproximarse a la solución por la izquierda.
 
