@@ -18,9 +18,13 @@ Un esquema del problema es como el que se muestra en la figura a continuación:
   <img src="BOX.png" width="320" heigth="240">
 </p>
 
-El volumen de la caja se puede obtener mediante la siguiente expresión. 
+El volumen de la caja se puede obtener mediante la siguiente expresión:
+
+<a href="https://www.codecogs.com/eqnedit.php?latex=V(x)=x(0.24-x)(0.32-x)" target="_blank"><img src="https://latex.codecogs.com/gif.latex?V(x)=x(0.24-x)(0.32-x)" title="V(x)=x(0.24-x)(0.32-x)" /></a>
 
 Luego, basta con resolver la siguiente ecuación: 
+
+<a href="https://www.codecogs.com/eqnedit.php?latex=V(x)=x(0.24-x)(0.32-x)" target="_blank"><img src="https://latex.codecogs.com/gif.latex? x(0.24-x)(0.32-x)-0.001" title="x(0.24-x)(0.32-x)-0.001" /></a>
 
 Para resolver el problema usamos una variación de los métodos de bisecciones y Newton Rapson que permita aproximarse a la solución por la izquierda.
 
