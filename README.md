@@ -31,7 +31,17 @@ Se quiere conocer utilizando métodos numéricos, el tiempo en el que el objeto 
 
 Solución: 
 
+
+Gráficamente, podemos verificar la convergencia del método. 
+
+
+
 ## Punto 10.
+
+Se utilizará el método de Newton para encontrar una intersección de las siguientes ecuaciones en coordenadas polares. 
+
+<img alt="tex: f(x) = \frac1{\sigma\sqrt{2\pi}} 
+    \int_{-\infty}^x e^{-\frac{(t-\mu)^2}{2\sigma^2}}dt">
 
 ## Punto 14. 
 
