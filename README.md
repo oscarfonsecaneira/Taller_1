@@ -161,11 +161,15 @@ Resultados:
 Gráficamente, podemos verificar tanto la validez como la convergencia del método. 
 
 <p align="center">
-  <img src="Derivate.png" width="320" heigth="240">
+  <img src="Derivada.png" width="320" heigth="240">
 </p>
 
 <p align="center">
   <img src="Distancia.png" width="320" heigth="240">
+</p>
+
+<p align="center">
+  <img src="Convergencia.png" width="320" heigth="240">
 </p>
 
 
@@ -222,7 +226,7 @@ Nuevamenta, la expresión puede reescribirse como:
 
 <a href="https://www.codecogs.com/eqnedit.php?latex=x=\frac{1&plus;e^{x}}{5}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?x=\frac{1&plus;e^{x}}{5}" title="x=\frac{1+e^{x}}{5}" /></a>
 
-Utilizaremos el método del punto fijo para solucionar la expresión, encontreremos una solución en el intervalo
+Utilizaremos el método del punto fijo para solucionar la expresión: 
 
 **Resultados:**
 
@@ -244,14 +248,3 @@ Cuarta  iteración: 0.34303551692747236
 Quinta iteracióon: 0.3442447488046782
 
 ```
-
-
-
-
-
-
-
-
-
-
-
