@@ -91,7 +91,7 @@ Vol = 0.0009999958488588572
 Graficamente: 
 
 <p align="center">
-  <img src="Punto2.png" width="320" heigth="240">
+  <img src="f2.png">
 </p>
 
 **Preguntas Adicionales:**
