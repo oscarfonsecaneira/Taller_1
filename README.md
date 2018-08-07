@@ -188,8 +188,12 @@ Se igualan las dos ecuaciones y se obtiene la siguiente expresión.
 ```
 Solucion en Radianes:  -0.6973291224219446
 Solucion en Grados:  -39.954015646338924  
-
+R = 1.5020866070676133
 ```
+
+No obstante, una de las funciones es periódica, con periodo <a href="https://www.codecogs.com/eqnedit.php?latex=T=\frac{2\pi}{3}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?T=\frac{2\pi}{3}" title="T=\frac{2\pi}{3}" /></a> , por lo tanto la respuesta general al problema es: 
+
+<a href="https://www.codecogs.com/eqnedit.php?latex=t=&space;-0.6973&plus;&space;\frac{2k&space;\pi}{3}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?t=&space;-0.6973&plus;&space;\frac{2k&space;\pi}{3}" title="t= -0.6973+ \frac{2k \pi}{3}" /></a>
 
 Gráficamente, podemos verificar la validez de la solución. 
 
