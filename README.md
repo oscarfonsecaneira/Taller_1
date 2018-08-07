@@ -206,7 +206,7 @@ Al resolver la integral, la expresión puede reescribirse como:
 Gráficamente, el posible dar un estimado de la raiz real de la expresión:
 
 <p align="center">
-  <img src="Punto_15.png" width="320" heigth="240">
+  <img src="Punto_15.png">
 </p>
 
 
@@ -236,7 +236,6 @@ Cuarta  iteración: 0.34303551692747236
 Quinta iteracióon: 0.3442447488046782
 
 ```
-Graficamente: 
 
 
 
