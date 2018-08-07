@@ -9,13 +9,27 @@ Se necesita un recipiente rectangular, sin tapa, de un litro de capacidad. Para 
 
 El código determina la medida del lado del cuadrado que se debe recortar en cada esquina para que el recipiente tenga la capacidad requerida. 
 
+Solución. 
+
+Un esquema del problema es como el que se muestra en la figura a continuación: 
+
+
+El volumen de la caja se puede obtener mediante la siguiente expresión. 
+
+Luego, basta con resolver la siguiente ecuación: 
+
+Para resolver el problema usamos una variación de los métodos de bisecciones y Newton Rapson que permita aproximarse a la solución por la izquierda.
+
 ## Punto 3 o 4 o 5.  
 
 ## Punto 6. 
-
  
-
 ## Punto 7.  
+Una partícula se mueve en el espacio con el siguiente vector posición: 
+
+Se quiere conocer utilizando métodos numéricos, el tiempo en el que el objeto se encuentre más cercano del punto . Se utilizará el método de Newton Rapson, usando 4 decimales de precisión. 
+
+Solución: 
 
 ## Punto 10.
 
@@ -34,8 +48,6 @@ b := Upper Limit.
 n := Number of Divisions. 
 tol := Desired Tolerance of the Answer. 
 ```
-
-These are some of the results that can be obtained with the algorithm for different combiantions of functions and parameters:
 
 
 
