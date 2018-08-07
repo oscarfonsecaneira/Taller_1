@@ -76,6 +76,10 @@ Vol = 0.0009999975752305029
 ```
 Graficamente: 
 
+<p align="center">
+  <img src="Punto2.png" width="320" heigth="240">
+</p>
+
 **Preguntas Adicionales:**
 
 1. ¿Cuál etapa del proceso de resolución de un problema numérico requiere más atención? 
