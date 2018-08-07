@@ -105,9 +105,25 @@ Gráficamente, podemos verificar la validez de la solución.
 
 ## Punto 15. 
 
-Se propone resolver la integral con el método del punto fijo: 
+Se propone resolver la integral <a href="https://www.codecogs.com/eqnedit.php?latex=\int_{0}^{x}&space;\left&space;(&space;5&space;-&space;e^{u}&space;\right&space;)&space;du" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\int_{0}^{x}&space;\left&space;(&space;5&space;-&space;e^{u}&space;\right&space;)&space;du" title="\int_{0}^{x} \left ( 5 - e^{u} \right ) du" /></a> con el método del punto fijo. 
 
-<a href="https://www.codecogs.com/eqnedit.php?latex=\int_{0}^{x}&space;\left&space;(&space;5&space;-&space;e^{u}&space;\right&space;)&space;du" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\int_{0}^{x}&space;\left&space;(&space;5&space;-&space;e^{u}&space;\right&space;)&space;du" title="\int_{0}^{x} \left ( 5 - e^{u} \right ) du" /></a>
+Al resolver la integral, la expresión puede reescribirse como:
+
+<a href="https://www.codecogs.com/eqnedit.php?latex=f(x)=5x-e^{x}-1=0" target="_blank"><img src="https://latex.codecogs.com/gif.latex?f(x)=5x-e^{x}-1=0" title="f(x)=5x-e^{x}-1=0" /></a>
+
+Gráficamente, el posible dar un estimado de las raices reales de la expresión: 
+
+Nuevamenta, la expresión puede reescribirse como: 
+
+<a href="https://www.codecogs.com/eqnedit.php?latex=x=\frac{1&plus;e^{x}}{5}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?x=\frac{1&plus;e^{x}}{5}" title="x=\frac{1+e^{x}}{5}" /></a>
+
+Utilizaremos el método del punto fijo para solucionar la expresión, encontreremos una solución en el intervalo
+
+Resultados: 
+
+
+
+
 
 
 
