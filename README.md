@@ -15,7 +15,7 @@ Solución.
 Un esquema del problema es como el que se muestra en la figura a continuación: 
 
 <p align="center">
-  <img src="Box.png" width="320" heigth="240">
+  <img src="BOX.png" width="320" heigth="240">
 </p>
 
 El volumen de la caja se puede obtener mediante la siguiente expresión. 
