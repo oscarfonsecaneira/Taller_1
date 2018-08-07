@@ -203,7 +203,12 @@ Al resolver la integral, la expresión puede reescribirse como:
 
 <a href="https://www.codecogs.com/eqnedit.php?latex=f(x)=5x-e^{x}-1=0" target="_blank"><img src="https://latex.codecogs.com/gif.latex?f(x)=5x-e^{x}-1=0" title="f(x)=5x-e^{x}-1=0" /></a>
 
-Gráficamente, el posible dar un estimado de las raices reales de la expresión: 
+Gráficamente, el posible dar un estimado de la raiz real de la expresión:
+
+<p align="center">
+  <img src="Punto_15.png" width="320" heigth="240">
+</p>
+
 
 Nuevamenta, la expresión puede reescribirse como: 
 
