@@ -55,7 +55,7 @@ Luego, basta con resolver la siguiente ecuación:
 
 Para resolver el problema, se debe tener en cuenta que el volumen solamente puede aproximarse por la izquierda al valor equivalente a un litro, para eso se le restará un valor de épsilon que permita aproximarse a la solución por la izquierda, resolvimos el problema mediante el método de Bisecciones y Newton Raphson. 
 
-**Resultados:** 
+**Resultados método Bisecciones:** 
 
 ```
 Intervalo: [0,0.05]
@@ -74,6 +74,20 @@ Intervalo: [0.1,0.15]
 Vol = 0.0009999975752305029
 
 ```
+
+**Resultados método Newton-Raphson:** 
+```
+ x  = 0.0.01696064362425921
+Vol = 0.0009999102141617382
+
+ x  = 0.08093306077072439
+Vol = 0.0009999775971849495
+
+ x  = 0.18210497416831156
+Vol = 0.0009999958488588572
+
+```
+
 Graficamente: 
 
 <p align="center">
@@ -104,9 +118,6 @@ Por que los computadores permiten realizar los procesos iterativos con mucha fac
 6. ¿Por qué es importante validar los resultados obtenidos? 
 
 Por que, aun cuando la formulación matemática del problema haya sido correcta, es posible que los métodos numéricos converjan a una solución que no sea correcta.  
-
-
-
 
 ## Punto 3 o 4 o 5.  
 
@@ -192,8 +203,6 @@ Resultados:
 
 Gráficamente, podemos verificar la validez de la solución. 
 
-
-
 ## Punto 14. 
 
 ## Punto 15. 
@@ -212,7 +221,30 @@ Nuevamenta, la expresión puede reescribirse como:
 
 Utilizaremos el método del punto fijo para solucionar la expresión, encontreremos una solución en el intervalo
 
-Resultados: 
+**Resultados:**
+
+Al cabo de 5 iteraciones se obtivieron los siguientes resultados: 
+
+```
+ x    = 0.5430355169274723
+f(x)  = 1.9939538406139703
+
+```
+
+Se verifica la condición del método del punto fijo, se muestra el valor de la derivada de la función auxiliar y en cada iteración se observa que siempre es menor que 1 en valor absoluto. 
+
+```
+Primera iteración: 0.29836493952825405
+Segunda iteración: 0.3292055428770587
+Tercera iteración: 0.33951662315069553
+Cuarta  iteración: 0.34303551692747236
+Quinta iteracióon: 0.3442447488046782
+
+```
+Graficamente: 
+
+
+
 
 
 
