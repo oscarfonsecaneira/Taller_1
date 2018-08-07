@@ -44,9 +44,22 @@ En primer lugar es necesario plantear la solución analítica del problema, lo q
 
 <a href="https://www.codecogs.com/eqnedit.php?latex=d(t)=((2\cos(t)-2)^{2}&plus;(2\sin(t)-1)^{2})^{1/2}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?d(t)=((2\cos(t)-2)^{2}&plus;(2\sin(t)-1)^{2})^{1/2}" title="d(t)=((2\cos(t)-2)^{2}+(2\sin(t)-1)^{2})^{1/2}" /></a>
 
-Lo que buscamos es minimizar esta función, pero basta con minimizar su cuadrado. Para esto, derivamos su cuadrado e igualamos la derivada a cero, obtieniendo la ecuación que deberá ser resuelta utilizando el método e Newton. 
+Lo que buscamos es minimizar esta función, pero basta con minimizar su cuadrado. Para esto, derivamos su cuadrado e igualamos la derivada a cero, obtieniendo la ecuación que deberá ser resuelta utilizando el método de Newton.
+
+<a href="https://www.codecogs.com/eqnedit.php?latex=D'(t)=-4(2\cos(t)-2)\sin(t)&plus;2(\sin(t)-1)\cost(t)" target="_blank"><img src="https://latex.codecogs.com/gif.latex?D'(t)=-4(2\cos(t)-2)\sin(t)&plus;2(\sin(t)-1)\cost(t)=0" title="D'(t)=-4(2\cos(t)-2)\sin(t)+2(\sin(t)-1)\cost(t)=0" /></a>
+
+<a href="https://www.codecogs.com/eqnedit.php?latex=D'(t)=-6\sin(2t)&plus;2\sin(t)&plus;8\cost(t)" target="_blank"><img src="https://latex.codecogs.com/gif.latex?D'(t)=-6\sin(2t)&plus;2\sin(t)&plus;8\cost(t)=0" title="D'(t)=-6\sin(2t)+2\sin(t)+8\cost(t)=0" /></a>
+
+Utilizando el método de Newton: 
 
 
+Resultados: 
+
+```
+ t = Lower Limit 
+ r = Upper Limit.  
+ 
+```
 
 Gráficamente, podemos verificar tanto la validez como la convergencia del método. 
 
@@ -64,8 +77,9 @@ Se utilizará el método de Newton para encontrar una intersección de las sigui
                                                                                               
 Se igualan las dos ecuaciones y se obtiene la siguiente expresión. 
 
+<a href="https://www.codecogs.com/eqnedit.php?latex=r=2-e^{t}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\cos&space;(3t)+e^{t}=0"/></a>
 
-Para utilizar el método de Newton, derivamos la expresión: 
+Utilizando el método de Newton: 
 
 Se selecciona una solución en el siguiente intervalo: 
 
@@ -74,6 +88,18 @@ a = Lower Limit
 b := Upper Limit.  
 tol := Desired Tolerance of the Answer. 
 ```
+
+Resultados: 
+
+```
+ t = Lower Limit 
+ r = Upper Limit.  
+ 
+```
+
+Gráficamente, podemos verificar la validez de la solución. 
+
+
 
 ## Punto 14. 
 
