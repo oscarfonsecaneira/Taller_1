@@ -23,7 +23,7 @@ El volumen de la caja se puede obtener mediante la siguiente expresión:
 
 Luego, basta con resolver la siguiente ecuación: 
 
-<a href="https://www.codecogs.com/eqnedit.php?latex=V(x)=x(0.24-x)(0.32-x)" target="_blank"><img src="https://latex.codecogs.com/gif.latex?x(0.24-x)(0.32-x)-0.001" title="x(0.24-x)(0.32-x)-0.001" /></a>
+<a href="https://www.codecogs.com/eqnedit.php?latex=V(x)=x(0.24-x)(0.32-x)" target="_blank"><img src="https://latex.codecogs.com/gif.latex?x(0.24-x)(0.32-x)-0.001=0" title="x(0.24-x)(0.32-x)-0.001=0" /></a>
 
 Para resolver el problema usamos una variación de los métodos de bisecciones y Newton Rapson que permita aproximarse a la solución por la izquierda.
 
@@ -34,12 +34,21 @@ Para resolver el problema usamos una variación de los métodos de bisecciones y
 ## Punto 7.  
 Una partícula se mueve en el espacio con el siguiente vector posición: 
 
-Se quiere conocer utilizando métodos numéricos, el tiempo en el que el objeto se encuentre más cercano del punto . Se utilizará el método de Newton Rapson, usando 4 decimales de precisión. 
+<a href="https://www.codecogs.com/eqnedit.php?latex=R(t)=(2\cos&space;(t),2\sin(t),0)" target="_blank"><img src="https://latex.codecogs.com/gif.latex?R(t)=(2\cos&space;(t),2\sin(t),0)" title="R(t)=(2\cos (t),2\sin(t),0)" /></a>
+
+Se quiere conocer utilizando métodos numéricos, el tiempo en el que el objeto se encuentre más cercano del punto <a href="https://www.codecogs.com/eqnedit.php?latex=P(2,1,0)" target="_blank"><img src="https://latex.codecogs.com/gif.latex?P(2,1,0)" title="P(2,1,0)" /></a> . Se utilizará el método de Newton Rapson, usando 4 decimales de precisión. 
 
 Solución: 
 
+En primer lugar es necesario plantear la solución analítica del problema, lo que permitirá obtener la expresión que deberá ser resuelta usando métodos numéricos. Para esto, usando los conocimientos de cálculo de una variable, definimos la distancia de la partícula al punto P, como función del tiempo: 
 
-Gráficamente, podemos verificar la convergencia del método. 
+<a href="https://www.codecogs.com/eqnedit.php?latex=d(t)=((2\cos(t)-2)^{2}&plus;(2\sin(t)-1)^{2})^{1/2}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?d(t)=((2\cos(t)-2)^{2}&plus;(2\sin(t)-1)^{2})^{1/2}" title="d(t)=((2\cos(t)-2)^{2}+(2\sin(t)-1)^{2})^{1/2}" /></a>
+
+Lo que buscamos es minimizar esta función, pero basta con minimizar su cuadrado. Para esto, derivamos su cuadrado e igualamos la derivada a cero, obtieniendo la ecuación que deberá ser resuelta utilizando el método e Newton. 
+
+
+
+Gráficamente, podemos verificar tanto la validez como la convergencia del método. 
 
 
 
