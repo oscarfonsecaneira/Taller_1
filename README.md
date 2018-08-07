@@ -19,7 +19,7 @@ Un esquema del problema es como el que se muestra en la figura a continuación:
 
 El volumen de la caja se puede obtener mediante la siguiente expresión:
 
-<a href="https://www.codecogs.com/eqnedit.php?latex=V(x)=x(0.24-x)(0.32-x)" target="_blank"><img src="https://latex.codecogs.com/gif.latex?V(x)=x(0.24-x)(0.32-x)" title="V(x)=x(0.24-x)(0.32-x)" /></a>
+<a href="https://www.codecogs.com/eqnedit.php?latex=V(x)=x(0.24-x)(0.32-x)" target="_blank"><img align="center" src="https://latex.codecogs.com/gif.latex?V(x)=x(0.24-x)(0.32-x)" title="V(x)=x(0.24-x)(0.32-x)" /></a>
 
 Luego, basta con resolver la siguiente ecuación: 
 
