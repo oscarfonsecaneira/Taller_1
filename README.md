@@ -153,8 +153,8 @@ Utilizando el método de Newton:
 Resultados: 
 
 ```
- t = Lower Limit 
- r = Upper Limit.  
+ t = 0.587219776635034
+ d^2 = 0.3111186586832909
  
 ```
 
@@ -183,22 +183,12 @@ Se igualan las dos ecuaciones y se obtiene la siguiente expresión.
 
 <a href="https://www.codecogs.com/eqnedit.php?latex=r=2-e^{t}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\cos&space;(3t)+e^{t}=0"/></a>
 
-Utilizando el método de Newton: 
-
-Se selecciona una solución en el siguiente intervalo: 
+**Resultados método de Newton:**
 
 ```
-a = Lower Limit 
-b := Upper Limit.  
-tol := Desired Tolerance of the Answer. 
-```
+Solucion en Radianes:  -0.6973291224219446
+Solucion en Grados:  -39.954015646338924  
 
-Resultados: 
-
-```
- t = Lower Limit 
- r = Upper Limit.  
- 
 ```
 
 Gráficamente, podemos verificar la validez de la solución. 
