@@ -9,7 +9,7 @@ Se necesita un recipiente rectangular, sin tapa, de un litro de capacidad. Para 
 
 El código determina la medida del lado del cuadrado que se debe recortar en cada esquina para que el recipiente tenga la capacidad requerida. 
 
-Solución. 
+**Solución:** 
 
 Un esquema del problema es como el que se muestra en la figura a continuación: 
 
@@ -38,7 +38,7 @@ Una partícula se mueve en el espacio con el siguiente vector posición:
 
 Se quiere conocer utilizando métodos numéricos, el tiempo en el que el objeto se encuentre más cercano del punto <a href="https://www.codecogs.com/eqnedit.php?latex=P(2,1,0)" target="_blank"><img src="https://latex.codecogs.com/gif.latex?P(2,1,0)" title="P(2,1,0)" /></a> . Se utilizará el método de Newton Rapson, usando 4 decimales de precisión. 
 
-Solución: 
+**Solución:** 
 
 En primer lugar es necesario plantear la solución analítica del problema, lo que permitirá obtener la expresión que deberá ser resuelta usando métodos numéricos. Para esto, usando los conocimientos de cálculo de una variable, definimos la distancia de la partícula al punto P, como función del tiempo: 
 
@@ -59,6 +59,8 @@ Se utilizará el método de Newton para encontrar una intersección de las sigui
 <a href="https://www.codecogs.com/eqnedit.php?latex=r=2&plus;\cos&space;(3t)" target="_blank"><img src="https://latex.codecogs.com/gif.latex?r=2&plus;\cos&space;(3t)"/></a>
 
 <a href="https://www.codecogs.com/eqnedit.php?latex=r=2-e^{t}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?r=2-e^{t}" title="r=2-e^{t}" /></a>
+
+**Solución:** 
                                                                                               
 Se igualan las dos ecuaciones y se obtiene la siguiente expresión. 
 
