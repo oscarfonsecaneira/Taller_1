@@ -53,7 +53,7 @@ Luego, basta con resolver la siguiente ecuación:
 
 <a href="https://www.codecogs.com/eqnedit.php?latex=V(x)=x(0.24-x)(0.32-x)" target="_blank"><img src="https://latex.codecogs.com/gif.latex?x(0.24-x)(0.32-x)-0.001=0" title="x(0.24-x)(0.32-x)-0.001=0" /></a>
 
-Para resolver el problema, se debe tener en cuenta que el volumen solamente puede puede aproximarse por la izquierda al valor equivalente a un litro, para eso se le restará un valor de épsilon que permita aproximarse a la solución por la izquierda.
+Para resolver el problema, se debe tener en cuenta que el volumen solamente puede puede aproximarse por la izquierda al valor equivalente a un litro, para eso se le restará un valor de épsilon que permita aproximarse a la solución por la izquierda, resolvimos el problema mediante el método de Bisecciones y Newton Raphson. 
 
 **Resultados:** 
 
@@ -69,7 +69,6 @@ Vol = 0.0009999921144448125
 
 Intervalo: [0.1,0.15]
 
-
  x  = 0.18210500000000004
 Vol = 0.0009999975752305029
 
@@ -77,6 +76,31 @@ Vol = 0.0009999975752305029
 Graficamente: 
 
 **Preguntas Adicionales: 
+
+1. ¿Cuál etapa del proceso de resolución de un problema numérico requiere más atención? 
+
+Para solucionar un problema matemático es necesario que todas las etapas del proceso se lleven acabo de manera correcta, sin embargo la formulación matemática inicial es lo más importante. Si la ecuación planteada no es correcta, ningún método numérico por bueno que sea, puede corregir los problemas en el modelo analítico del problema. 
+
+2. ¿Qué conocimientos son necesarios para formular un modelo matemático? 
+
+Depende mucho del problema en cuestión, sin embargo, de manera muy general se necesitan conocimientos de cálculo multivariado, álgebra lineal y ecuaciones diferenciales.  
+
+3. En el ejemplo anterior. ¿Cuál sería la desventaja de intentar obtener experimentalmente la solución mediante prueba y error en lugar de analizar el modelo matemático? 
+
+En caso de que solo se cuente con una lámina, si se falla no hay forma de corregir. En este caso sería un método de acierto o error. 
+
+4. ¿Qué es más crítico: el error de truncamiento o el error de redondeo?
+
+Cuando se redondea, se tienen en cuenta algunas de las cifras que se dejan de lado, sin embargo, cuando se trunca el valor no se consieran las cifras dejadas de lado. Desde esa perspectiva, es más crítico el error de truncamiento. 
+
+5. ¿Cuál es la ventaja de instrumentar computacionalmente un método numérico?
+Por que los computadores permiten realizar los procesos iterativos con mucha facilidad, además, como los algoritmos son generales, basta con programarlos una sola vez para aplicarlos en diferentes contextos. 
+
+6. ¿Por qué es importante validar los resultados obtenidos? 
+
+Por que, aun cuando la formulación matemática del problema haya sido correcta, es posible que los métodos numéricos converjan a una solución que no sea correcta.  
+
+
 
 
 ## Punto 3 o 4 o 5.  
