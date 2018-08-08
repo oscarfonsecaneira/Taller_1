@@ -206,6 +206,21 @@ Gráficamente, podemos verificar la validez de la solución.
 </p>
 
 ## Punto 14. 
+El siguiente es un procedimiento intuitivo para calcular una raiz real positiva de la ecuacion f(x)=0 en un intervalo [a,b] con precision E:
+
+A partir de x=a evalue f(x) incrementando x en un valor d. Inicialmente d=(b-a)/10. Cuando f cambie de signo, retroceda x al punto anterior x-d, reduzca d al valor d/10 y evalue nuevamente f hasta que cambie de signo. Repita este procedimiento hasta que d sea menor que E.
+
+a) De manera formal escriba las condiciones necesarias para que la raiz exista, sea unica y pueda ser calculada.
+
+Para que la raiz exista debe existir un punto x en donde f(x) sea igual a 0.
+
+Para que la raiz sea unica, debe existir unicamente un punto x que cumpla con la condicion anterior.
+
+Para que pueda ser calculada se debe manejar un intervalo [a,b] en el que f(a)*f(b)>0
+
+b) E se tomo como 0.000001
+
+c) El procedimiento se resolvio en Python, esta en el repositorio con el nombre de punto14.py
 
 ## Punto 15. 
 
