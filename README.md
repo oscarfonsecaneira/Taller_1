@@ -119,7 +119,19 @@ Por que los computadores permiten realizar los procesos iterativos con mucha fac
 
 Por que, aun cuando la formulación matemática del problema haya sido correcta, es posible que los métodos numéricos converjan a una solución que no sea correcta.  
 
-## Punto 3 o 4 o 5.  
+## Punto 5.
+ Calcule la propagación del error dado por las operaciones aritméticas, para el siguiente problema.
+ La velocidad de una particula es constante e igual a 4 m/s, medida con un error de 0.1 m/s durante un tiempo de recorrido de 5 segundos medido con un error de 0.1 segundos. Determine el error absoluto y el error relativo en el valor de la distancia recorrida.
+ 
+ v=4, Ev=0.1
+ t=5, Et=0.1
+ d=vt
+ 
+ Los siguientes resultados se obtienen con el uso de Python, en el repositoria se llama punto5.py
+ 
+ distancia = 20m
+ Error absoluto = +- 0.899999
+ Error relatibo = +- 0.045
 
 ## Punto 6. 
 Eficiencia de un algoritmo esta denotada por T(n)
