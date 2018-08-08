@@ -142,6 +142,8 @@ Eficiencia de un algoritmo esta denotada por T(n)
  
  Ya con <a href="https://www.codecogs.com/eqnedit.php?latex=T(n)" target="_blank"><img src="https://latex.codecogs.com/gif.latex?T(n)" title="T(n)" /></a> encontrado que es igual a 7, se expresa a O( ) como <a href="https://www.codecogs.com/eqnedit.php?latex=O(2^{-n})" target="_blank"><img src="https://latex.codecogs.com/gif.latex?O(2^{-n})" title="O(2^{-n})" /></a>
  
+ Se obtiene que para cualquier n, el numero de iteracion es log 2 de n (parte entra de logaritmo en base de n).
+ 
 ## Punto 7.  
 Una partícula se mueve en el espacio con el siguiente vector posición: 
 
