@@ -123,6 +123,8 @@ Por que, aun cuando la formulación matemática del problema haya sido correcta,
  Calcule la propagación del error dado por las operaciones aritméticas, para el siguiente problema.
  La velocidad de una particula es constante e igual a 4 m/s, medida con un error de 0.1 m/s durante un tiempo de recorrido de 5 segundos medido con un error de 0.1 segundos. Determine el error absoluto y el error relativo en el valor de la distancia recorrida.
  
+ **Solución:** 
+ 
  v=4, Ev=0.1
  t=5, Et=0.1
  d=vt
